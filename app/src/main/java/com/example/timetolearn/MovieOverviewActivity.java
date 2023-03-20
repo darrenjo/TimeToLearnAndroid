@@ -18,7 +18,7 @@ public class MovieOverviewActivity extends AppCompatActivity {
         initializeWebView();
     }
     private void initializeWebView() {
-        //mWebView = findViewById(R.id.webView);
+        mWebView = findViewById(R.id.webView);
         WebSettings webSettings = mWebView.getSettings();
         webSettings.setLoadsImagesAutomatically(true);
         webSettings.setJavaScriptEnabled(true);
